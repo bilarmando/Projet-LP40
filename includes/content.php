@@ -23,9 +23,9 @@
                 </p>
                 <a class="bouton" href="#">En savoir plus</a>
             </div>
-
-            
             <div class="cls"> </div>
+            <a class="twitter-timeline" data-height="300" data-theme="light" href="https://twitter.com/Ligue1">Tweets by Ligue1</a>
         </div>
     </div>
 </div>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -10,7 +10,7 @@
                 <li><a href="clubs.php">Clubs</a></li>
                 <li><a href="joueurs.php">Joueurs</a></li>
                 <li><a href="stades.php">Stades</a></li>
-                <li><a href="videos.php">Videos</a></li>
+                <li><a href="galerie.php">Photos</a></li>
                 <li><a href="stats.php">Statistiques</a></li>
                 <li><a href="contact.php">Contact</a></li>
                 <div class="cls"> </div>

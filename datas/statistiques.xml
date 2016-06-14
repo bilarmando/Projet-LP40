@@ -36,368 +36,459 @@
 			<nom-joueur>Zlatan Ibrahimovic</nom-joueur>
 			<passes-decisives>10</passes-decisives>
 		</meilleur-passeur>
-	</stats-ligue1>
+		<stats-clubs>
+			<stats-club id_club="1" nom_club="Angers Sporting Club de l'Ouest">
+				<place city="Stade Jean Bouin Boulevard Pierre de Coubertin, 49000 Angers" country="FRANCE" lat="47.460432" lon="-0.530794"/>
+				<picture id="0" path="img-stades/stade-jean-bouin.jpg">Stade Jean Bouin</picture>
+				<stats-joueur id_joueur="1">
+					<types-match>
+						<type-match type="general">
+							<matchs-joues>23</matchs-joues>
+							<temps-jeu>1849</temps-jeu>
+							<buts-marques>23</buts-marques>
+							<passes-decissives>10</passes-decissives>
+							<hors-jeux>41</hors-jeux>
+							<cartons-jaunes>1</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>21</fautes-commises>
+							<fautes-subies>26</fautes-subies>
+						</type-match>
+						<type-match type="domicile">
+							<matchs-joues>11</matchs-joues>
+							<temps-jeu>869</temps-jeu>
+							<buts-marques>13</buts-marques>
+							<passes-decissives>6</passes-decissives>
+							<hors-jeux>13</hors-jeux>
+							<cartons-jaunes>0</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>8</fautes-commises>
+							<fautes-subies>13</fautes-subies>
+						</type-match>
+						<type-match type="exterieur">
+							<matchs-joues>12</matchs-joues>
+							<temps-jeu>980</temps-jeu>
+							<buts-marques>10</buts-marques>
+							<passes-decissives>4</passes-decissives>
+							<hors-jeux>28</hors-jeux>
+							<buts-encaisses></buts-encaisses>
+							<arrets></arrets>
+							<detournes></detournes>
+							<cartons-jaunes>1</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>13</fautes-commises>
+							<fautes-subies>13</fautes-subies>
+						</type-match>
+					</types-match>
+				</stats-joueur>
+				<stats-joueur id_joueur="2">
+					<types-match>
+						<type-match type="general">
+							<matchs-joues>27</matchs-joues>
+							<temps-jeu>2430</temps-jeu>
+							<buts-marques>0</buts-marques>
+							<passes-decissives>28</passes-decissives>
+							<hors-jeux></hors-jeux>
+							<buts-encaisses>28</buts-encaisses>
+							<arrets>54</arrets>
+							<detournes>45</detournes>
+							<cartons-jaunes>3</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>2</fautes-commises>
+							<fautes-subies>5</fautes-subies>
+						</type-match>
+						<type-match type="domicile">
+							<matchs-joues>14</matchs-joues>
+							<temps-jeu>1260</temps-jeu>
+							<buts-marques>0</buts-marques>
+							<passes-decissives>0</passes-decissives>
+							<hors-jeux></hors-jeux>
+							<buts-encaisses>17</buts-encaisses>
+							<arrets>25</arrets>
+							<detournes>18</detournes>
+							<cartons-jaunes>1</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>1</fautes-commises>
+							<fautes-subies>2</fautes-subies>
+						</type-match>
+						<type-match type="exterieur">
+							<matchs-joues>13</matchs-joues>
+							<temps-jeu>1170</temps-jeu>
+							<buts-marques>0</buts-marques>
+							<passes-decissives>0</passes-decissives>
+							<hors-jeux></hors-jeux>
+							<buts-encaisses>11</buts-encaisses>
+							<arrets>29</arrets>
+							<detournes>27</detournes>
+							<cartons-jaunes>2</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>1</fautes-commises>
+							<fautes-subies>3</fautes-subies>
+						</type-match>
+					</types-match>
+				</stats-joueur>
+			</stats-club>
 
-  <stats-clubs>
-		<stats-club nom_club="PSG">
-				<place city="Los Angeles, California" country="USA" lat="34.0522342" lon="-118.2436849"/>
-				<picture id="0" path="img-stades/Lannister.jpg">Le Parc des Princes</picture>
-        <stats-joueur id_joueur="1">
-            <types-match>
-                <type-match type="general">
-                    <matchs-joues>23</matchs-joues>
-                    <temps-jeu>1849</temps-jeu>
-                    <buts-marques>23</buts-marques>
-                    <passes-decissives>10</passes-decissives>
-                    <hors-jeux>41</hors-jeux>
-                    <cartons-jaunes>1</cartons-jaunes>
-                    <cartons-rouges>0</cartons-rouges>
-                    <fautes-commises>21</fautes-commises>
-                    <fautes-subies>26</fautes-subies>
-                </type-match>
-                <type-match type="domicile">
-                    <matchs-joues>11</matchs-joues>
-                    <temps-jeu>869</temps-jeu>
-                    <buts-marques>13</buts-marques>
-                    <passes-decissives>6</passes-decissives>
-                    <hors-jeux>13</hors-jeux>
-                    <cartons-jaunes>0</cartons-jaunes>
-                    <cartons-rouges>0</cartons-rouges>
-                    <fautes-commises>8</fautes-commises>
-                    <fautes-subies>13</fautes-subies>
-                </type-match>
-                <type-match type="exterieur">
-                    <matchs-joues>12</matchs-joues>
-                    <temps-jeu>980</temps-jeu>
-                    <buts-marques>10</buts-marques>
-                    <passes-decissives>4</passes-decissives>
-                    <hors-jeux>28</hors-jeux>
-                    <buts-encaisses></buts-encaisses>
-                    <arrets></arrets>
-                    <detournes></detournes>
-                    <cartons-jaunes>1</cartons-jaunes>
-                    <cartons-rouges>0</cartons-rouges>
-                    <fautes-commises>13</fautes-commises>
-                    <fautes-subies>13</fautes-subies>
-                </type-match>
-        		</types-match>
-        </stats-joueur>
-        <stats-joueur id_joueur="2">
-            <types-match>
-                <type-match type="general">
-                    <matchs-joues>27</matchs-joues>
-                    <temps-jeu>2430</temps-jeu>
-                    <buts-marques>0</buts-marques>
-                    <passes-decissives>28</passes-decissives>
-                    <hors-jeux></hors-jeux>
-                    <buts-encaisses>28</buts-encaisses>
-                    <arrets>54</arrets>
-                    <detournes>45</detournes>
-                    <cartons-jaunes>3</cartons-jaunes>
-                    <cartons-rouges>0</cartons-rouges>
-                    <fautes-commises>2</fautes-commises>
-	                  <fautes-subies>5</fautes-subies>
-                </type-match>
-                <type-match type="domicile">
-                    <matchs-joues>14</matchs-joues>
-                    <temps-jeu>1260</temps-jeu>
-                    <buts-marques>0</buts-marques>
-                    <passes-decissives>0</passes-decissives>
-                    <hors-jeux></hors-jeux>
-                    <buts-encaisses>17</buts-encaisses>
-                    <arrets>25</arrets>
-                    <detournes>18</detournes>
-                    <cartons-jaunes>1</cartons-jaunes>
-                    <cartons-rouges>0</cartons-rouges>
-                    <fautes-commises>1</fautes-commises>
-                    <fautes-subies>2</fautes-subies>
-                </type-match>
-                <type-match type="exterieur">
-                    <matchs-joues>13</matchs-joues>
-                    <temps-jeu>1170</temps-jeu>
-                    <buts-marques>0</buts-marques>
-                    <passes-decissives>0</passes-decissives>
-                    <hors-jeux></hors-jeux>
-                    <buts-encaisses>11</buts-encaisses>
-                    <arrets>29</arrets>
-                    <detournes>27</detournes>
-                    <cartons-jaunes>2</cartons-jaunes>
-                    <cartons-rouges>0</cartons-rouges>
-                    <fautes-commises>1</fautes-commises>
-                    <fautes-subies>3</fautes-subies>
-                </type-match>
-            </types-match>
-        </stats-joueur>
-		</stats-club>
-		<stats-club nom_club="Monaco">
-				<place city="McLean, Virginia" country="USA" lat="38.9338676" lon="-77.1772604"/>
-				<picture id="1" path="img-stades/Lannister.jpg">La Principauté</picture>
-        <stats-joueur id_joueur="3">
-            <types-match>
-                <type-match type="general">
-                    <matchs-joues>23</matchs-joues>
-                    <temps-jeu>1849</temps-jeu>
-                    <buts-marques>23</buts-marques>
-                    <passes-decissives>10</passes-decissives>
-                    <hors-jeux>41</hors-jeux>
-                    <cartons-jaunes>1</cartons-jaunes>
-                    <cartons-rouges>0</cartons-rouges>
-                    <fautes-commises>21</fautes-commises>
-                    <fautes-subies>26</fautes-subies>
-                </type-match>
-                <type-match type="domicile">
-                    <matchs-joues>11</matchs-joues>
-                    <temps-jeu>869</temps-jeu>
-                    <buts-marques>13</buts-marques>
-                    <passes-decissives>6</passes-decissives>
-                    <hors-jeux>13</hors-jeux>
-                    <cartons-jaunes>0</cartons-jaunes>
-                    <cartons-rouges>0</cartons-rouges>
-                    <fautes-commises>8</fautes-commises>
-                    <fautes-subies>13</fautes-subies>
-                </type-match>
-                <type-match type="exterieur">
-                    <matchs-joues>12</matchs-joues>
-                    <temps-jeu>980</temps-jeu>
-                    <buts-marques>10</buts-marques>
-                    <passes-decissives>4</passes-decissives>
-                    <hors-jeux>28</hors-jeux>
-                    <buts-encaisses></buts-encaisses>
-                    <arrets></arrets>
-                    <detournes></detournes>
-                    <cartons-jaunes>1</cartons-jaunes>
-                    <cartons-rouges>0</cartons-rouges>
-                    <fautes-commises>13</fautes-commises>
-                    <fautes-subies>13</fautes-subies>
-                </type-match>
-        		</types-match>
-        </stats-joueur>
-        <stats-joueur id_joueur="4">
-            <types-match>
-                <type-match type="general">
-                    <matchs-joues>27</matchs-joues>
-                    <temps-jeu>2430</temps-jeu>
-                    <buts-marques>0</buts-marques>
-                    <passes-decissives>28</passes-decissives>
-                    <hors-jeux></hors-jeux>
-                    <buts-encaisses>28</buts-encaisses>
-                    <arrets>54</arrets>
-                    <detournes>45</detournes>
-                    <cartons-jaunes>3</cartons-jaunes>
-                    <cartons-rouges>0</cartons-rouges>
-                    <fautes-commises>2</fautes-commises>
-	                  <fautes-subies>5</fautes-subies>
-                </type-match>
-                <type-match type="domicile">
-                    <matchs-joues>14</matchs-joues>
-                    <temps-jeu>1260</temps-jeu>
-                    <buts-marques>0</buts-marques>
-                    <passes-decissives>0</passes-decissives>
-                    <hors-jeux></hors-jeux>
-                    <buts-encaisses>17</buts-encaisses>
-                    <arrets>25</arrets>
-                    <detournes>18</detournes>
-                    <cartons-jaunes>1</cartons-jaunes>
-                    <cartons-rouges>0</cartons-rouges>
-                    <fautes-commises>1</fautes-commises>
-                    <fautes-subies>2</fautes-subies>
-                </type-match>
-                <type-match type="exterieur">
-                    <matchs-joues>13</matchs-joues>
-                    <temps-jeu>1170</temps-jeu>
-                    <buts-marques>0</buts-marques>
-                    <passes-decissives>0</passes-decissives>
-                    <hors-jeux></hors-jeux>
-                    <buts-encaisses>11</buts-encaisses>
-                    <arrets>29</arrets>
-                    <detournes>27</detournes>
-                    <cartons-jaunes>2</cartons-jaunes>
-                    <cartons-rouges>0</cartons-rouges>
-                    <fautes-commises>1</fautes-commises>
-                    <fautes-subies>3</fautes-subies>
-                </type-match>
-            </types-match>
-        </stats-joueur>
-				<stats-club nom_club="Marseille">
-					<place city="McLean, Virginia" country="USA" lat="38.9338676" lon="-77.1772604"/>
-						<picture id="2" path="img-stades/Annonymous.jpg">Le Vélodrome</picture>
-		        <stats-joueur id_joueur="5">
-		            <types-match>
-		                <type-match type="general">
-		                    <matchs-joues>23</matchs-joues>
-		                    <temps-jeu>1849</temps-jeu>
-		                    <buts-marques>23</buts-marques>
-		                    <passes-decissives>10</passes-decissives>
-		                    <hors-jeux>41</hors-jeux>
-		                    <cartons-jaunes>1</cartons-jaunes>
-		                    <cartons-rouges>0</cartons-rouges>
-		                    <fautes-commises>21</fautes-commises>
-		                    <fautes-subies>26</fautes-subies>
-		                </type-match>
-		                <type-match type="domicile">
-		                    <matchs-joues>11</matchs-joues>
-		                    <temps-jeu>869</temps-jeu>
-		                    <buts-marques>13</buts-marques>
-		                    <passes-decissives>6</passes-decissives>
-		                    <hors-jeux>13</hors-jeux>
-		                    <cartons-jaunes>0</cartons-jaunes>
-		                    <cartons-rouges>0</cartons-rouges>
-		                    <fautes-commises>8</fautes-commises>
-		                    <fautes-subies>13</fautes-subies>
-		                </type-match>
-		                <type-match type="exterieur">
-		                    <matchs-joues>12</matchs-joues>
-		                    <temps-jeu>980</temps-jeu>
-		                    <buts-marques>10</buts-marques>
-		                    <passes-decissives>4</passes-decissives>
-		                    <hors-jeux>28</hors-jeux>
-		                    <buts-encaisses></buts-encaisses>
-		                    <arrets></arrets>
-		                    <detournes></detournes>
-		                    <cartons-jaunes>1</cartons-jaunes>
-		                    <cartons-rouges>0</cartons-rouges>
-		                    <fautes-commises>13</fautes-commises>
-		                    <fautes-subies>13</fautes-subies>
-		                </type-match>
-		        		</types-match>
-		        </stats-joueur>
-		        <stats-joueur id_joueur="6">
-		            <types-match>
-		                <type-match type="general">
-		                    <matchs-joues>27</matchs-joues>
-		                    <temps-jeu>2430</temps-jeu>
-		                    <buts-marques>0</buts-marques>
-		                    <passes-decissives>28</passes-decissives>
-		                    <hors-jeux></hors-jeux>
-		                    <buts-encaisses>28</buts-encaisses>
-		                    <arrets>54</arrets>
-		                    <detournes>45</detournes>
-		                    <cartons-jaunes>3</cartons-jaunes>
-		                    <cartons-rouges>0</cartons-rouges>
-		                    <fautes-commises>2</fautes-commises>
-			                  <fautes-subies>5</fautes-subies>
-		                </type-match>
-		                <type-match type="domicile">
-		                    <matchs-joues>14</matchs-joues>
-		                    <temps-jeu>1260</temps-jeu>
-		                    <buts-marques>0</buts-marques>
-		                    <passes-decissives>0</passes-decissives>
-		                    <hors-jeux></hors-jeux>
-		                    <buts-encaisses>17</buts-encaisses>
-		                    <arrets>25</arrets>
-		                    <detournes>18</detournes>
-		                    <cartons-jaunes>1</cartons-jaunes>
-		                    <cartons-rouges>0</cartons-rouges>
-		                    <fautes-commises>1</fautes-commises>
-		                    <fautes-subies>2</fautes-subies>
-		                </type-match>
-		                <type-match type="exterieur">
-		                    <matchs-joues>13</matchs-joues>
-		                    <temps-jeu>1170</temps-jeu>
-		                    <buts-marques>0</buts-marques>
-		                    <passes-decissives>0</passes-decissives>
-		                    <hors-jeux></hors-jeux>
-		                    <buts-encaisses>11</buts-encaisses>
-		                    <arrets>29</arrets>
-		                    <detournes>27</detournes>
-		                    <cartons-jaunes>2</cartons-jaunes>
-		                    <cartons-rouges>0</cartons-rouges>
-		                    <fautes-commises>1</fautes-commises>
-		                    <fautes-subies>3</fautes-subies>
-		                </type-match>
-		            </types-match>
-		        </stats-joueur>
-				</stats-club>
-				<stats-club nom_club="Belfort">
-						<place city="McLean, Virginia" country="USA" lat="38.9338676" lon="-77.1772604"/>
-						<picture id="3" path="img-stades/Tyrion.jpg">Le PSA Stadium</picture>
-		        <stats-joueur id_joueur="7">
-		            <types-match>
-		                <type-match type="general">
-		                    <matchs-joues>23</matchs-joues>
-		                    <temps-jeu>1849</temps-jeu>
-		                    <buts-marques>23</buts-marques>
-		                    <passes-decissives>10</passes-decissives>
-		                    <hors-jeux>41</hors-jeux>
-		                    <cartons-jaunes>1</cartons-jaunes>
-		                    <cartons-rouges>0</cartons-rouges>
-		                    <fautes-commises>21</fautes-commises>
-		                    <fautes-subies>26</fautes-subies>
-		                </type-match>
-		                <type-match type="domicile">
-		                    <matchs-joues>11</matchs-joues>
-		                    <temps-jeu>869</temps-jeu>
-		                    <buts-marques>13</buts-marques>
-		                    <passes-decissives>6</passes-decissives>
-		                    <hors-jeux>13</hors-jeux>
-		                    <cartons-jaunes>0</cartons-jaunes>
-		                    <cartons-rouges>0</cartons-rouges>
-		                    <fautes-commises>8</fautes-commises>
-		                    <fautes-subies>13</fautes-subies>
-		                </type-match>
-		                <type-match type="exterieur">
-		                    <matchs-joues>12</matchs-joues>
-		                    <temps-jeu>980</temps-jeu>
-		                    <buts-marques>10</buts-marques>
-		                    <passes-decissives>4</passes-decissives>
-		                    <hors-jeux>28</hors-jeux>
-		                    <buts-encaisses></buts-encaisses>
-		                    <arrets></arrets>
-		                    <detournes></detournes>
-		                    <cartons-jaunes>1</cartons-jaunes>
-		                    <cartons-rouges>0</cartons-rouges>
-		                    <fautes-commises>13</fautes-commises>
-		                    <fautes-subies>13</fautes-subies>
-		                </type-match>
-		        		</types-match>
-		        </stats-joueur>
-		        <stats-joueur id_joueur="8">
-		            <types-match>
-		                <type-match type="general">
-		                    <matchs-joues>27</matchs-joues>
-		                    <temps-jeu>2430</temps-jeu>
-		                    <buts-marques>0</buts-marques>
-		                    <passes-decissives>28</passes-decissives>
-		                    <hors-jeux></hors-jeux>
-		                    <buts-encaisses>28</buts-encaisses>
-		                    <arrets>54</arrets>
-		                    <detournes>45</detournes>
-		                    <cartons-jaunes>3</cartons-jaunes>
-		                    <cartons-rouges>0</cartons-rouges>
-		                    <fautes-commises>2</fautes-commises>
-			                  <fautes-subies>5</fautes-subies>
-		                </type-match>
-		                <type-match type="domicile">
-		                    <matchs-joues>14</matchs-joues>
-		                    <temps-jeu>1260</temps-jeu>
-		                    <buts-marques>0</buts-marques>
-		                    <passes-decissives>0</passes-decissives>
-		                    <hors-jeux></hors-jeux>
-		                    <buts-encaisses>17</buts-encaisses>
-		                    <arrets>25</arrets>
-		                    <detournes>18</detournes>
-		                    <cartons-jaunes>1</cartons-jaunes>
-		                    <cartons-rouges>0</cartons-rouges>
-		                    <fautes-commises>1</fautes-commises>
-		                    <fautes-subies>2</fautes-subies>
-		                </type-match>
-		                <type-match type="exterieur">
-		                    <matchs-joues>13</matchs-joues>
-		                    <temps-jeu>1170</temps-jeu>
-		                    <buts-marques>0</buts-marques>
-		                    <passes-decissives>0</passes-decissives>
-		                    <hors-jeux></hors-jeux>
-		                    <buts-encaisses>11</buts-encaisses>
-		                    <arrets>29</arrets>
-		                    <detournes>27</detournes>
-		                    <cartons-jaunes>2</cartons-jaunes>
-		                    <cartons-rouges>0</cartons-rouges>
-		                    <fautes-commises>1</fautes-commises>
-		                    <fautes-subies>3</fautes-subies>
-		                </type-match>
-		            </types-match>
-		        </stats-joueur>
-				</stats-club>
-		</stats-club>
-	</stats-clubs>
+			<stats-club id_club="2" nom_club="Sporting Club de Bastia">
+				<place city="Stade Armand Cesari Route du Stade, 20600 Furiani, France" country="FRANCE" lat="42.651443" lon="9.442695"/>
+				<picture id="1" path="img-stades/stade-armand-cesari.jpg">Stade Armand-Cesari</picture>
+				<stats-joueur id_joueur="3">
+					<types-match>
+						<type-match type="general">
+							<matchs-joues>23</matchs-joues>
+							<temps-jeu>1849</temps-jeu>
+							<buts-marques>23</buts-marques>
+							<passes-decissives>10</passes-decissives>
+							<hors-jeux>41</hors-jeux>
+							<cartons-jaunes>1</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>21</fautes-commises>
+							<fautes-subies>26</fautes-subies>
+						</type-match>
+						<type-match type="domicile">
+							<matchs-joues>11</matchs-joues>
+							<temps-jeu>869</temps-jeu>
+							<buts-marques>13</buts-marques>
+							<passes-decissives>6</passes-decissives>
+							<hors-jeux>13</hors-jeux>
+							<cartons-jaunes>0</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>8</fautes-commises>
+							<fautes-subies>13</fautes-subies>
+						</type-match>
+						<type-match type="exterieur">
+							<matchs-joues>12</matchs-joues>
+							<temps-jeu>980</temps-jeu>
+							<buts-marques>10</buts-marques>
+							<passes-decissives>4</passes-decissives>
+							<hors-jeux>28</hors-jeux>
+							<buts-encaisses></buts-encaisses>
+							<arrets></arrets>
+							<detournes></detournes>
+							<cartons-jaunes>1</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>13</fautes-commises>
+							<fautes-subies>13</fautes-subies>
+						</type-match>
+					</types-match>
+				</stats-joueur>
+				<stats-joueur id_joueur="4">
+					<types-match>
+						<type-match type="general">
+							<matchs-joues>27</matchs-joues>
+							<temps-jeu>2430</temps-jeu>
+							<buts-marques>0</buts-marques>
+							<passes-decissives>28</passes-decissives>
+							<hors-jeux></hors-jeux>
+							<buts-encaisses>28</buts-encaisses>
+							<arrets>54</arrets>
+							<detournes>45</detournes>
+							<cartons-jaunes>3</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>2</fautes-commises>
+							<fautes-subies>5</fautes-subies>
+						</type-match>
+						<type-match type="domicile">
+							<matchs-joues>14</matchs-joues>
+							<temps-jeu>1260</temps-jeu>
+							<buts-marques>0</buts-marques>
+							<passes-decissives>0</passes-decissives>
+							<hors-jeux></hors-jeux>
+							<buts-encaisses>17</buts-encaisses>
+							<arrets>25</arrets>
+							<detournes>18</detournes>
+							<cartons-jaunes>1</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>1</fautes-commises>
+							<fautes-subies>2</fautes-subies>
+						</type-match>
+						<type-match type="exterieur">
+							<matchs-joues>13</matchs-joues>
+							<temps-jeu>1170</temps-jeu>
+							<buts-marques>0</buts-marques>
+							<passes-decissives>0</passes-decissives>
+							<hors-jeux></hors-jeux>
+							<buts-encaisses>11</buts-encaisses>
+							<arrets>29</arrets>
+							<detournes>27</detournes>
+							<cartons-jaunes>2</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>1</fautes-commises>
+							<fautes-subies>3</fautes-subies>
+						</type-match>
+					</types-match>
+				</stats-joueur>
+			</stats-club>
+
+			<stats-club id_club="3" nom_club="Paris-Saint-Germain Football Club">
+				<place city="Avenue du Parc des Princes, 75016 Paris" country="FRANCE" lat="48.841023" lon="2.254565"/>
+				<picture id="2" path="img-stades/parc-des-princes.jpg">Parc des Princes</picture>
+				<stats-joueur id_joueur="5">
+					<types-match>
+						<type-match type="general">
+							<matchs-joues>23</matchs-joues>
+							<temps-jeu>1849</temps-jeu>
+							<buts-marques>23</buts-marques>
+							<passes-decissives>10</passes-decissives>
+							<hors-jeux>41</hors-jeux>
+							<cartons-jaunes>1</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>21</fautes-commises>
+							<fautes-subies>26</fautes-subies>
+						</type-match>
+						<type-match type="domicile">
+							<matchs-joues>11</matchs-joues>
+							<temps-jeu>869</temps-jeu>
+							<buts-marques>13</buts-marques>
+							<passes-decissives>6</passes-decissives>
+							<hors-jeux>13</hors-jeux>
+							<cartons-jaunes>0</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>8</fautes-commises>
+							<fautes-subies>13</fautes-subies>
+						</type-match>
+						<type-match type="exterieur">
+							<matchs-joues>12</matchs-joues>
+							<temps-jeu>980</temps-jeu>
+							<buts-marques>10</buts-marques>
+							<passes-decissives>4</passes-decissives>
+							<hors-jeux>28</hors-jeux>
+							<buts-encaisses></buts-encaisses>
+							<arrets></arrets>
+							<detournes></detournes>
+							<cartons-jaunes>1</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>13</fautes-commises>
+							<fautes-subies>13</fautes-subies>
+						</type-match>
+					</types-match>
+				</stats-joueur>
+				<stats-joueur id_joueur="6">
+					<types-match>
+						<type-match type="general">
+							<matchs-joues>27</matchs-joues>
+							<temps-jeu>2430</temps-jeu>
+							<buts-marques>0</buts-marques>
+							<passes-decissives>28</passes-decissives>
+							<hors-jeux></hors-jeux>
+							<buts-encaisses>28</buts-encaisses>
+							<arrets>54</arrets>
+							<detournes>45</detournes>
+							<cartons-jaunes>3</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>2</fautes-commises>
+							<fautes-subies>5</fautes-subies>
+						</type-match>
+						<type-match type="domicile">
+							<matchs-joues>14</matchs-joues>
+							<temps-jeu>1260</temps-jeu>
+							<buts-marques>0</buts-marques>
+							<passes-decissives>0</passes-decissives>
+							<hors-jeux></hors-jeux>
+							<buts-encaisses>17</buts-encaisses>
+							<arrets>25</arrets>
+							<detournes>18</detournes>
+							<cartons-jaunes>1</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>1</fautes-commises>
+							<fautes-subies>2</fautes-subies>
+						</type-match>
+						<type-match type="exterieur">
+							<matchs-joues>13</matchs-joues>
+							<temps-jeu>1170</temps-jeu>
+							<buts-marques>0</buts-marques>
+							<passes-decissives>0</passes-decissives>
+							<hors-jeux></hors-jeux>
+							<buts-encaisses>11</buts-encaisses>
+							<arrets>29</arrets>
+							<detournes>27</detournes>
+							<cartons-jaunes>2</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>1</fautes-commises>
+							<fautes-subies>3</fautes-subies>
+						</type-match>
+					</types-match>
+				</stats-joueur>
+			</stats-club>
+			<stats-club id_club="4" nom_club="Association sportive de Monaco FC">
+				<place city="Avenue Albert II, 98000 Monaco" country="FRANCE" lat="43.72961" lon="7.416266"/>
+				<picture id="3" path="img-stades/stade-louis-II.jpg">Stade Louis II</picture>
+				<stats-joueur id_joueur="7">
+					<types-match>
+						<type-match type="general">
+							<matchs-joues>23</matchs-joues>
+							<temps-jeu>1849</temps-jeu>
+							<buts-marques>23</buts-marques>
+							<passes-decissives>10</passes-decissives>
+							<hors-jeux>41</hors-jeux>
+							<cartons-jaunes>1</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>21</fautes-commises>
+							<fautes-subies>26</fautes-subies>
+						</type-match>
+						<type-match type="domicile">
+							<matchs-joues>11</matchs-joues>
+							<temps-jeu>869</temps-jeu>
+							<buts-marques>13</buts-marques>
+							<passes-decissives>6</passes-decissives>
+							<hors-jeux>13</hors-jeux>
+							<cartons-jaunes>0</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>8</fautes-commises>
+							<fautes-subies>13</fautes-subies>
+						</type-match>
+						<type-match type="exterieur">
+							<matchs-joues>12</matchs-joues>
+							<temps-jeu>980</temps-jeu>
+							<buts-marques>10</buts-marques>
+							<passes-decissives>4</passes-decissives>
+							<hors-jeux>28</hors-jeux>
+							<buts-encaisses></buts-encaisses>
+							<arrets></arrets>
+							<detournes></detournes>
+							<cartons-jaunes>1</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>13</fautes-commises>
+							<fautes-subies>13</fautes-subies>
+						</type-match>
+					</types-match>
+				</stats-joueur>
+				<stats-joueur id_joueur="8">
+					<types-match>
+						<type-match type="general">
+							<matchs-joues>27</matchs-joues>
+							<temps-jeu>2430</temps-jeu>
+							<buts-marques>0</buts-marques>
+							<passes-decissives>28</passes-decissives>
+							<hors-jeux></hors-jeux>
+							<buts-encaisses>28</buts-encaisses>
+							<arrets>54</arrets>
+							<detournes>45</detournes>
+							<cartons-jaunes>3</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>2</fautes-commises>
+							  <fautes-subies>5</fautes-subies>
+						</type-match>
+						<type-match type="domicile">
+							<matchs-joues>14</matchs-joues>
+							<temps-jeu>1260</temps-jeu>
+							<buts-marques>0</buts-marques>
+							<passes-decissives>0</passes-decissives>
+							<hors-jeux></hors-jeux>
+							<buts-encaisses>17</buts-encaisses>
+							<arrets>25</arrets>
+							<detournes>18</detournes>
+							<cartons-jaunes>1</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>1</fautes-commises>
+							<fautes-subies>2</fautes-subies>
+						</type-match>
+						<type-match type="exterieur">
+							<matchs-joues>13</matchs-joues>
+							<temps-jeu>1170</temps-jeu>
+							<buts-marques>0</buts-marques>
+							<passes-decissives>0</passes-decissives>
+							<hors-jeux></hors-jeux>
+							<buts-encaisses>11</buts-encaisses>
+							<arrets>29</arrets>
+							<detournes>27</detournes>
+							<cartons-jaunes>2</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>1</fautes-commises>
+							<fautes-subies>3</fautes-subies>
+						</type-match>
+					</types-match>
+				</stats-joueur>
+			</stats-club>
+			<stats-club id_club="5" nom_club="Olympique de Marseille">
+				<place city="Stade Vélodrome 3 Boulevard Michelet, 13008 Marseille" country="FRANCE" lat="43.269827" lon="5.395887"/>
+				<picture id="4" path="img-stades/velodrome.jpg">Le Vélodrome</picture>
+				<stats-joueur id_joueur="9">
+					<types-match>
+						<type-match type="general">
+							<matchs-joues>23</matchs-joues>
+							<temps-jeu>1849</temps-jeu>
+							<buts-marques>23</buts-marques>
+							<passes-decissives>10</passes-decissives>
+							<hors-jeux>41</hors-jeux>
+							<cartons-jaunes>1</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>21</fautes-commises>
+							<fautes-subies>26</fautes-subies>
+						</type-match>
+						<type-match type="domicile">
+							<matchs-joues>11</matchs-joues>
+							<temps-jeu>869</temps-jeu>
+							<buts-marques>13</buts-marques>
+							<passes-decissives>6</passes-decissives>
+							<hors-jeux>13</hors-jeux>
+							<cartons-jaunes>0</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>8</fautes-commises>
+							<fautes-subies>13</fautes-subies>
+						</type-match>
+						<type-match type="exterieur">
+							<matchs-joues>12</matchs-joues>
+							<temps-jeu>980</temps-jeu>
+							<buts-marques>10</buts-marques>
+							<passes-decissives>4</passes-decissives>
+							<hors-jeux>28</hors-jeux>
+							<buts-encaisses></buts-encaisses>
+							<arrets></arrets>
+							<detournes></detournes>
+							<cartons-jaunes>1</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>13</fautes-commises>
+							<fautes-subies>13</fautes-subies>
+						</type-match>
+					</types-match>
+				</stats-joueur>
+				<stats-joueur id_joueur="10">
+					<types-match>
+						<type-match type="general">
+							<matchs-joues>27</matchs-joues>
+							<temps-jeu>2430</temps-jeu>
+							<buts-marques>0</buts-marques>
+							<passes-decissives>28</passes-decissives>
+							<hors-jeux></hors-jeux>
+							<buts-encaisses>28</buts-encaisses>
+							<arrets>54</arrets>
+							<detournes>45</detournes>
+							<cartons-jaunes>3</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>2</fautes-commises>
+							  <fautes-subies>5</fautes-subies>
+						</type-match>
+						<type-match type="domicile">
+							<matchs-joues>14</matchs-joues>
+							<temps-jeu>1260</temps-jeu>
+							<buts-marques>0</buts-marques>
+							<passes-decissives>0</passes-decissives>
+							<hors-jeux></hors-jeux>
+							<buts-encaisses>17</buts-encaisses>
+							<arrets>25</arrets>
+							<detournes>18</detournes>
+							<cartons-jaunes>1</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>1</fautes-commises>
+							<fautes-subies>2</fautes-subies>
+						</type-match>
+						<type-match type="exterieur">
+							<matchs-joues>13</matchs-joues>
+							<temps-jeu>1170</temps-jeu>
+							<buts-marques>0</buts-marques>
+							<passes-decissives>0</passes-decissives>
+							<hors-jeux></hors-jeux>
+							<buts-encaisses>11</buts-encaisses>
+							<arrets>29</arrets>
+							<detournes>27</detournes>
+							<cartons-jaunes>2</cartons-jaunes>
+							<cartons-rouges>0</cartons-rouges>
+							<fautes-commises>1</fautes-commises>
+							<fautes-subies>3</fautes-subies>
+						</type-match>
+					</types-match>
+				</stats-joueur>
+			</stats-club>
+		</stats-clubs>
+	</stats-ligue1>
 </statistiques>

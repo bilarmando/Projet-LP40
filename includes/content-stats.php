@@ -56,6 +56,7 @@
                         <ul>
                             <li><span>Stats des joueurs</span></li>
                             <li><p>Ce contenu est en cours de dveloppement.</p></li>
+                            
                             <div class="cls"> </div>
                         </ul>
                     </div>
@@ -63,14 +64,11 @@
                 <div class="cls"> </div>
             </div>
         </div>
-        <div class="apropos-sidebar">
-            <h3>Derniers twits...</h3>
-            <ul>
-                <li><a href="#">dfsd</a></li>
-            </ul>
-        </div>
         <div class="cls"> </div>
     </div>
 </div>
-</div>
+<?php
+    echo('<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>');
+    echo('<script type="text/javascript" src="../js/localisation.js"></script>');
+?>
 

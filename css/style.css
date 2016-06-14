@@ -327,7 +327,7 @@ body{
 }
 .apropos-sidebar ul li {
 	border-bottom: 1px dashed rgba(192, 192, 192, 0.33);
-	background: url(../images/puce.png) 0 19px no-repeat;
+	/*background: url(../images/puce.png) 0 19px no-repeat;*/
 	padding: 9px 10px 8px 18px;
 }
 
@@ -363,11 +363,11 @@ body{
 }
 
 /*==========Galerie==========*/
-.gallery{
+.galerie{
 	float:left;
 	width:70%;
 }
-.gallery h3{
+.galerie h3{
 	color: #313232;
 	font-size: 1.5em;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -375,18 +375,18 @@ body{
 	border-bottom: 1px solid #EEE;
 	margin-bottom: 0.5em;
 }
-.gallery ul li{
+.galerie ul li{
 	display: inline-block;
 	width: 24.5%;
 }
-.gallery img{
+.galerie img{
 	-webkit-filter: grayscale(100%);
 	opacity:5;
 	transition: all 300ms!important;
 	-webkit-transition: all 300ms!important;
 	-moz-transition: all 300ms!important;
 }
-.gallery img:hover{
+.galerie img:hover{
 	opacity: 1;
 	-webkit-filter: grayscale(0%);
 	cursor: pointer;
@@ -886,7 +886,7 @@ body{
 	#last{
 		display:none;
 	}
-	.gallery ul li {
+	.galerie ul li {
 		width: 32.5%;
 	}
 }
@@ -916,10 +916,10 @@ body{
 	#last{
 		display:none;
 	}
-	.gallery ul li {
+	.galerie ul li {
 		width: 24.5%;
 	}
-	.gallery {
+	.galerie {
 		float: none;
 		width: 100%;
 	}
@@ -943,3 +943,164 @@ body{
 	}
 }
 
+
+/*=============== Basic =================*/
+.galerie a {
+	float: left;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	border: 1px solid #333;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*=============== Opcity & length =================*/
+.galerie a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	-webkit-transition-property: width, height;
+	-webkit-transition-duration: 300ms;
+	-moz-transition-property: width, height;
+	-moz-transition-duration: 300ms;
+	-o-transition-property: width, height;
+	-o-transition-duration: 300ms;
+	position: absolute;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+
+/*=============== Caption =================*/
+.galerie a:after {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	content: "@lp40_project";
+	color: #eaeaea;
+	font-family: "Segoe UI", monospace, Verdana;
+	font-size: 16px;
+	opacity: 0.5;
+}
+
+/*=============== Zoom =================*/
+.galerie a:focus img{
+	width: 250%;
+	height: 250%;
+	position: absolute;
+	opacity: 1;
+	z-index: 1;
+	-moz-box-shadow: 0 0 15px 2px #000;
+	-webkit-box-shadow: 0 0 15px 2px #000;
+	box-shadow: 0 0 15px 2px #000;
+	-webkit-transition-property: width, height;
+	-webkit-transition-duration: 2s;
+	-webkit-transition-delay: 0.3s;
+	-moz-transition-property: width, height;
+	-moz-transition-duration: 2s;
+	-moz-transition-delay: 0.3s;
+	-o-transition-property:width, height;
+	-o-transition-duration: 2s;
+	-o-transition-delay: 0.3s;
+	cursor: default;
+}
+
+/*=============== Right =================*/
+.galerie a:nth-child(5n+5) img, a:nth-child(5n+4) img{
+	right: 0;
+}
+
+/*=============== Bottom =================*/
+.galerie a:nth-child(n+11) img{
+	bottom: 0;
+}
+
+.galerie div{
+	display: inline-block;
+}
+
+.galerie{
+	width: 1000px;
+	position: relative;
+	top: 0px;
+	left: 160px;
+}
+
+/*=============== LOCATIONS =================*/
+#map {
+	width: 90%;
+	height: 45em;
+	margin-top: 10px;
+	margin-bottom: auto;
+	float: none;
+	border-style: solid;
+	border-width: 1px;
+	display: block;
+}
+
+.noscriptmsg {
+	font-family			: monospace,Verdana;
+	text-align			: center;
+	font-size			: 1.8em;
+	display				: inline;
+	margin-top			: 1em;
+	color				: black;
+}
+
+/*======= Map Styling ============*/
+a[href^="http://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span {
+	display:none;
+}
+.gmnoprint div {
+	background:none !important;
+}
+/* does not comply to the term of use, hide copyright and google logo*/
+
+form, #searchForm {
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-family			: "Segoe UI", monospace,Verdana;
+	text-align			: center;
+	font-size			: 2em;
+	display				: block;
+	margin-top			: 1em;
+	margin-right		: 10em;
+}
+
+.infowindow ul {
+	display			: block;
+	font-family		: "Segoe UI", monospace,Verdana;
+	font-size		: 15px;
+	color			: black;
+	padding-top		: 0.25em;
+	padding-bottom	: 0.25em;
+	padding-left	: 1em;
+	margin-left		: auto;
+	margin-right	: auto;
+	list-style-type : none;
+	float			: left;
+}
+
+.infowindow li {
+	margin-bottom	: 1em;
+	margin-left		: 1em;
+	padding			: 0.1em;
+	float			: top;
+	text-align		: left;
+}
+
+ul>li:before {
+
+}
+
+ul>li:hover {
+
+}

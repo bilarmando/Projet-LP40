@@ -8,13 +8,14 @@
                     Avec 66 saisons de présence en Ligue 1, le Football Club Sochaux-Montbéliard et l'Olympique de Marseille détiennent le record du nombre de saisons parmi l'élite, alors que le Football Club de Nantes détient quant à lui le record de longévité en Ligue 1 avec 44 saisons consécutives (de 1963 à 2007). Le Paris Saint-Germain est actuellement le doyen de la Ligue 1 puisqu'il y est présent depuis 1974 (soit sa 42e année consécutive en 2015-2016).</p>
             </div>
             <div class="apropos-sidebar">
-                <h3>Derniers twits...</h3>
                 <ul>
-                    <li><a href="#"></a></li>
+                    <li>
+                        <a class="twitter-timeline" data-height="400" href="https://twitter.com/Ligue1">Tweets by Ligue1</a>
+                    </li>
                 </ul>
             </div>
             <div class="cls"> </div>
         </div>
     </div>
 </div>
-
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

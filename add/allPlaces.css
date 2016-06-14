@@ -1,0 +1,73 @@
+#map {
+	width: 90%;
+	height: 45em;
+	margin-top: 10px;
+	margin-bottom: auto;
+	float: none;
+	border-style: solid;
+	border-width: 1px;
+	display: block;
+}
+
+.noscriptmsg {
+	font-family			: monospace,Verdana;
+	text-align			: center;
+	font-size			: 1.8em;
+	display				: inline;
+	margin-top			: 1em;
+	color				: black;
+}
+
+/*======= Map Styling ============*/
+a[href^="http://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}
+/* does not comply to the term of use, hide copyright and google logo*/
+
+form, #searchForm {
+margin-bottom: 10px; 
+}
+
+h1 {
+	font-family			: "Segoe UI", monospace,Verdana;
+	text-align			: center;
+	font-size			: 2em;
+	display				: block;
+	margin-top			: 1em;
+	margin-right		: 10em;
+}
+
+.infowindow ul {
+	display			: block;
+	font-family		: "Segoe UI", monospace,Verdana;
+	font-size		: 15px;
+	color			: black;
+	padding-top		: 0.25em;
+	padding-bottom	: 0.25em;
+	padding-left	: 1em;
+	margin-left		: auto;
+	margin-right	: auto;
+	list-style-type : none;
+	float			: left;
+}
+
+.infowindow li {
+	margin-bottom	: 1em;
+	margin-left		: 1em;
+	padding			: 0.1em;
+	float			: top;
+	text-align		: left;
+}
+
+ul>li:before {
+
+}
+
+ul>li:hover {
+
+}
