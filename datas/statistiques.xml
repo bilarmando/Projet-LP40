@@ -38,7 +38,9 @@
 		</meilleur-passeur>
 		<stats-clubs>
 			<stats-club id_club="1" nom_club="Angers Sporting Club de l'Ouest">
-				<place city="Stade Jean Bouin Boulevard Pierre de Coubertin, 49000 Angers" country="FRANCE" lat="47.460432" lon="-0.530794"/>
+				<places>
+					<place city="Stade Jean Bouin Boulevard Pierre de Coubertin, 49000 Angers" country="FRANCE" lat="47.460432" lon="-0.530794"/>
+				</places>
 				<picture id="0" path="img-stades/stade-jean-bouin.jpg">Stade Jean Bouin</picture>
 				<stats-joueur id_joueur="1">
 					<types-match>
@@ -129,7 +131,9 @@
 			</stats-club>
 
 			<stats-club id_club="2" nom_club="Sporting Club de Bastia">
-				<place city="Stade Armand Cesari Route du Stade, 20600 Furiani, France" country="FRANCE" lat="42.651443" lon="9.442695"/>
+				<places>
+					<place city="Stade Armand Cesari Route du Stade, 20600 Furiani, France" country="FRANCE" lat="42.651443" lon="9.442695"/>
+				</places>
 				<picture id="1" path="img-stades/stade-armand-cesari.jpg">Stade Armand-Cesari</picture>
 				<stats-joueur id_joueur="3">
 					<types-match>
@@ -220,7 +224,9 @@
 			</stats-club>
 
 			<stats-club id_club="3" nom_club="Paris-Saint-Germain Football Club">
-				<place city="Avenue du Parc des Princes, 75016 Paris" country="FRANCE" lat="48.841023" lon="2.254565"/>
+				<places>
+					<place city="Avenue du Parc des Princes, 75016 Paris" country="FRANCE" lat="48.841023" lon="2.254565"/>
+				</places>
 				<picture id="2" path="img-stades/parc-des-princes.jpg">Parc des Princes</picture>
 				<stats-joueur id_joueur="5">
 					<types-match>
@@ -310,7 +316,9 @@
 				</stats-joueur>
 			</stats-club>
 			<stats-club id_club="4" nom_club="Association sportive de Monaco FC">
-				<place city="Avenue Albert II, 98000 Monaco" country="FRANCE" lat="43.72961" lon="7.416266"/>
+				<places>
+					<place city="Avenue Albert II, 98000 Monaco" country="FRANCE" lat="43.72961" lon="7.416266"/>
+				</places>
 				<picture id="3" path="img-stades/stade-louis-II.jpg">Stade Louis II</picture>
 				<stats-joueur id_joueur="7">
 					<types-match>

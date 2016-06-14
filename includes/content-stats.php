@@ -56,7 +56,9 @@
                         <ul>
                             <li><span>Stats des joueurs</span></li>
                             <li><p>Ce contenu est en cours de dveloppement.</p></li>
-                            
+                            <?php
+
+                            ?>
                             <div class="cls"> </div>
                         </ul>
                     </div>
